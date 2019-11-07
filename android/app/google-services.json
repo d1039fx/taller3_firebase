@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854389951397",
+    "firebase_url": "https://tallerdia3.firebaseio.com",
+    "project_id": "tallerdia3",
+    "storage_bucket": "tallerdia3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854389951397:android:7dc9925be430a4f57d364c",
+        "android_client_info": {
+          "package_name": "com.miltux.taller3_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854389951397-c4dt4v1kinkc8soqldit60iuk4f1u8ki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.miltux.taller3_firebase",
+            "certificate_hash": "6ca0a1c584839ec4f6a26ed7e8c6e833b3c586ee"
+          }
+        },
+        {
+          "client_id": "854389951397-e0d5q9988mmbu1ahdju2gb3n1bgjfruk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9c_OFRlmevTrMSLDBjGLtZX7yq2IIvrI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854389951397-e0d5q9988mmbu1ahdju2gb3n1bgjfruk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
