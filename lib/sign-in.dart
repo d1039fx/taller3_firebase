@@ -23,6 +23,21 @@ class IngresoUsuario {
 
   //logout
   Future<void> logout() {
-    return _googleSignIn.signOut();
+    return _auth.signOut();
+  }
+}
+
+class IngresoUsuarioEmail {
+  final FirebaseAuth _firebaseAuth = FirebaseAuth.instance;
+
+  Future<FirebaseUser> loginConEmail({String email, String password}) async {
+    FirebaseUser firebaseUser = (await _firebaseAuth.signInWithEmailAndPassword(
+            email: email, password: password))
+        .user;
+    return firebaseUser;
+  }
+
+  Future<void> logoutEmail() {
+    return _firebaseAuth.signOut();
   }
 }
